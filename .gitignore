@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+next-env.d.ts
+
+# SECRETS: never commit these (your service role key lives here)
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+*.log
+.vercel
+*.tsbuildinfo
